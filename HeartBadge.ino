@@ -22,7 +22,7 @@ void setup();
 void loop_lines();
 void loop_stage();
 void show_stage(uint8_t);
-void setLeft(uint8_t, uint8_t, uint8_t);
+void set_half(uint8_t, uint8_t, uint8_t);
 
 void loop() {
     if (blink) {
